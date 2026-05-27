@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background: #0b0f1a;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.navbar a.active {
+    color: gold;
+}
+
+/* HERO */
+.explore-hero {
+    height: 60vh;
+    background: url('images/photography.webp') center/cover no-repeat;
+}
+
+.overlay {
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* INTRO */
+.intro {
+    text-align: center;
+    padding: 50px;
+}
+
+/* GALLERY */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.photo-card {
+    background: #111827;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.photo-card:hover {
+    transform: scale(1.05);
+}
+
+.photo-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.photo-card h3 {
+    margin-top: 10px;
+    color: gold;
+}
+
+.photo-card p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+}

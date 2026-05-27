@@ -1,0 +1,80 @@
+/* CONTACT HERO */
+.contact-hero {
+    height: 50vh;
+    background: url('images/2.jpg') center/cover no-repeat;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.6);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #0b0f1a;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.navbar a.active {
+    color: gold;
+}
+
+/* CONTACT SECTION */
+.contact-container {
+    display: flex;
+    padding: 60px;
+    gap: 40px;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-form {
+    flex: 1;
+    background: #111827;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* FORM */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background: gold;
+    border: none;
+    cursor: pointer;
+}
+
+/* MAP */
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+/* ACTIVE MENU */
+nav a.active {
+    color: gold;
+}
